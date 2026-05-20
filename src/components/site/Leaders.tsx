@@ -93,7 +93,7 @@ export function Leaders() {
               </div>
             </div>
           </div>
-          <div className="border border-[#d9d9d9] rounded-3xl px-10 py-4">
+          <div className="border border-[#d9d9d9] rounded-3xl px-10 py-4 transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl">
             <img
               src={leader.src}
               alt={l.name}
