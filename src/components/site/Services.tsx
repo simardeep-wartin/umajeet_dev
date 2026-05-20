@@ -12,7 +12,7 @@ import { SectionHeading } from "./SectionHeading";
 function Card({ img, title, className = "" }: { img: string; title: string; className?: string }) {
   return (
     <div className={`relative overflow-hidden rounded-[25px] ${className}`}>
-      <img src={img} alt={title} loading="lazy" className="h-full w-full object-cover" />
+      <img src={img} alt={title} className="h-full w-full object-cover" />
       <div className="absolute bottom-0 inset-x-0 bg-[#0c1b2e] py-5 px-4 text-center">
         <span className="text-[26px] md:text-[32px] font-bold text-white">{title}</span>
       </div>

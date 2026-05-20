@@ -99,7 +99,6 @@ export function Leaders() {
               alt={l.name}
               width={800}
               height={900}
-              loading="lazy"
               className="h-[420px] w-full object-cover rounded-2xl md:h-[673px]"
             />
           </div>
