@@ -38,15 +38,15 @@ export function Contact() {
             <ul className="mt-10 space-y-8 font-[family-name:var(--font-poppins)]">
               <li className="flex items-center gap-5 text-[16px] text-white">
                 <Phone className="h-5 w-5 shrink-0" />
-                +1012 3456 789
+                +91 8810231083 | 9891920211
               </li>
               <li className="flex items-center gap-5 text-[16px] text-white">
                 <Mail className="h-5 w-5 shrink-0" />
-                demo@gmail.com
+                umajeetinfratech5@gmail.com
               </li>
               <li className="flex items-start gap-5 text-[16px] text-white">
                 <MapPin className="mt-0.5 h-5 w-5 shrink-0" />
-                <span>132 Dartmouth Street Boston,<br />Massachusetts 02156 United States</span>
+                <span>Plot no.49 UG-2 Gyan khand -1 <br />Indirapuram,Ghaziabad, Uttar Pradesh – 201014</span>
               </li>
             </ul>
 
