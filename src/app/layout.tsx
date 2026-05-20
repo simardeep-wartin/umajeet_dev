@@ -17,10 +17,10 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Umajeet Infratech — Build Dreams Into Reality",
+  title: "Umajeet",
   description:
     "Umajeet Infratech Pvt. Ltd. — trusted construction, infrastructure and real estate solutions. Civil works, interiors, MEP and more.",
-  authors: [{ name: "Umajeet Infratech" }],
+  authors: [{ name: "Umajeet" }],
   icons: {
     icon: "/favicon.png",
     apple: "/favicon.png",
