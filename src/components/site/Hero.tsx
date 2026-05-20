@@ -24,6 +24,7 @@ export function Hero() {
         alt="Construction skyline"
         width={1920}
         height={700}
+        fetchpriority="high"
         className="absolute inset-0 h-full w-full object-cover"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/60" />
