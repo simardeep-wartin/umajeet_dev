@@ -56,7 +56,7 @@ export function Leaders() {
 
         {/* Leader card */}
         <div className="mt-12 grid items-center gap-10 md:grid-cols-2">
-          <div>
+          <div className="p-4">
             <h3 className="text-[40px] font-bold text-[#0c1b2e]">{l.name}</h3>
             <p className="mt-1 text-[24px] font-medium text-[#666666]">{l.role}</p>
             <div className="mt-6 space-y-4 text-[20px] leading-normal text-[#1a1a1a] text-justify">
@@ -93,13 +93,11 @@ export function Leaders() {
               </div>
             </div>
           </div>
-          <div className="border border-[#d9d9d9] rounded-3xl px-10 py-4 transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl">
+          <div className="h-[600px] w-[500px] border border-[#d9d9d9] rounded-3xl px-10 py-4 transition-all duration-300 hover:-translate-y-3 hover:shadow-[0_10px_10px_rgba(0.90,0.90,0.90,0.90)] ">
             <img
               src={leader.src}
               alt={l.name}
-              width={800}
-              height={900}
-              className="h-[420px] w-full object-cover rounded-2xl md:h-[673px]"
+              className="object-cover rounded-2xl h-full"
             />
           </div>
         </div>
