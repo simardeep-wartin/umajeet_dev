@@ -2,18 +2,21 @@
 
 import { useState } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import leader from "@/assets/owner.jpg";
+import owner1 from "@/assets/owner.jpg";
+import owner2 from "@/assets/owner2.jpg";
 
 const leaders = [
   {
     name: "Mr. Ajeet",
     role: "Managing Director",
     bio: "Mr. Ajeet is a visionary leader who combines strategic foresight with a meticulous commitment to quality and service excellence. With a proven track record in the infrastructure sector, he brings to the organization not only innovative business strategies but also a strong ability to translate vision into actionable results.\n\nHis forward-thinking mindset allows him to anticipate industry shifts and adapt proactively, ensuring that Umajeet Infratech remains ahead of market trends. By conceptualizing and leading projects with precision, he addresses the evolving needs of clients and communities—whether through modern construction practices, sustainable development, or advanced project management techniques.",
+    image: owner1,
   },
   {
     name: "Mrs. Uma",
     role: "Director",
     bio: "Mrs. Uma drives operational excellence and people-first leadership at Umajeet Infratech. Her hands-on approach to project governance, vendor management, and client relationships ensures every engagement delivers measurable value.\n\nWith deep expertise in compliance, sustainability and stakeholder management, she champions a culture of accountability, safety and continuous improvement across all verticals of the company.",
+    image: owner2,
   },
 ];
 
@@ -95,7 +98,7 @@ export function Leaders() {
           </div>
           <div className="h-[600px] w-[500px] border border-[#d9d9d9] rounded-3xl px-10 py-4 transition-all duration-300 hover:-translate-y-3 hover:shadow-[0_10px_10px_rgba(0.90,0.90,0.90,0.90)] ">
             <img
-              src={leader.src}
+              src={l.image.src}
               alt={l.name}
               className="object-cover rounded-2xl h-full"
             />

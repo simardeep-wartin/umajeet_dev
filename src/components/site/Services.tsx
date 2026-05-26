@@ -2,7 +2,7 @@ import interior from "@/assets/buildings2.png";
 import curing from "@/assets/bucket.jpg";
 import civil from "@/assets/buildings.jpg";
 import roads from "@/assets/road.jpg";
-import horti from "@/assets/road2.jpg";
+import horti from "@/assets/horticulture.jpg";
 import elec from "@/assets/pipes.jpg";
 import vent from "@/assets/lights.jpg";
 import fire from "@/assets/buttons.jpg";

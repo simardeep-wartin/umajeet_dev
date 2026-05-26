@@ -1,13 +1,16 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import building from "@/assets/buildings3.jpg";
+import b3 from "@/assets/buildings3.jpg";
+import b6 from "@/assets/buildings6.jpg";
+import b7 from "@/assets/buildings7.jpg";
+import b8 from "@/assets/buildings8.jpg";
 
 const slides = [
-  { title: "Build Dreams Into Reality", subtitle: "With trusted real estate solutions" },
-  { title: "Engineering Tomorrow's Skylines", subtitle: "End-to-end construction expertise" },
-  { title: "Crafted With Precision", subtitle: "Quality that stands the test of time" },
-  { title: "Your Vision, Our Foundation", subtitle: "Partner with industry leaders" },
+  { title: "Build Dreams Into Reality", subtitle: "With trusted real estate solutions", image: b3 },
+  { title: "Engineering Tomorrow's Skylines", subtitle: "End-to-end construction expertise", image: b6 },
+  { title: "Crafted With Precision", subtitle: "Quality that stands the test of time", image: b7 },
+  { title: "Your Vision, Our Foundation", subtitle: "Partner with industry leaders", image: b8 },
 ];
 
 export function Hero() {
@@ -20,7 +23,7 @@ export function Hero() {
   return (
     <section id="home" className="h-[700px] w-full relative overflow-hidden">
       <img
-        src={building.src}
+        src={slides[i].image.src}
         alt="Construction skyline"
         width={1920}
         height={700}
